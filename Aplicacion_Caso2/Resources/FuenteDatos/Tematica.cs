@@ -20,7 +20,7 @@ namespace Aplicacion_Caso2.Resources.FuenteDatos
             this.tema = tema;
         }
 
-        private int id { get; set; }
-        private string tema { get; set; }
+        public int id { get; set; }
+        public string tema { get; set; }
     }
 }

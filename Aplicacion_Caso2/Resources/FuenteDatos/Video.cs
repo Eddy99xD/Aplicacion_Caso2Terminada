@@ -13,5 +13,17 @@ namespace Aplicacion_Caso2.Resources.FuenteDatos
 {
     class Video
     {
+        public Video(int id, string desc, string url, int tematicaid)
+        {
+            this.id = id;
+            this.desc = desc;
+            this.url = url;
+            this.tematicaid = tematicaid;
+        }
+
+        public int id { get; set; }
+        public string desc { get; set; }
+        public string url { get; set; }
+        public int tematicaid { get; set; }
     }
 }
