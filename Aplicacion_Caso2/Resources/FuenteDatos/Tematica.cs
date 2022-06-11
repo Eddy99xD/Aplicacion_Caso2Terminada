@@ -13,5 +13,14 @@ namespace Aplicacion_Caso2.Resources.FuenteDatos
 {
     class Tematica
     {
+
+        public Tematica(int id,string tema)
+        {
+            this.id = id;
+            this.tema = tema;
+        }
+
+        private int id { get; set; }
+        private string tema { get; set; }
     }
 }
