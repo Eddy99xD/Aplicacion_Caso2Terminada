@@ -1,0 +1,10 @@
+<resources>
+        <string name="app_name">Cursos Online Gratis</string>
+    <string name="inhtesar">Ingresar</string>
+  
+  <string name="des_tema">Seleccione un video para visualizar el contenido.
+                          Proximanente se subiran más Tematicas.</string>
+  <string name="des_video">
+    Seleccione un video para visualizar el contenido.
+    Proximanente se subiran más Videos.</string>
+</resources>
