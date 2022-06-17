@@ -38,7 +38,7 @@ namespace Aplicacion_Caso2
         private void lstTemas_Click(object sender, AdapterView.ItemClickEventArgs e)
         {
             var item = Contenido.temas[e.Position];
-
+            //
             Intent i = new Intent(this, typeof(VideoActivity));
             i.PutExtra("temaId", item.id);
             StartActivity(i);
